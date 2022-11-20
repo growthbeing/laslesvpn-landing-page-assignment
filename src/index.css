@@ -1,0 +1,41 @@
+/************ Global Styles ************/
+
+:root {
+  --site-font: "Rubik", sans-serif;
+  --primary-color: #f53838;
+  --text-color-light: #4f5665;
+  --text-color-dark: #0b132a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--site-font), sans-serif;
+}
+
+@media screen and (min-width: 1600px) {
+    html {
+        font-size: 125%;
+    }
+}
+
+@media screen and (max-width: 56.25rem) {
+    html {
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 26.5625rem) {
+    html {
+        font-size: 85%;
+    }
+}
+
+::selection {
+    color: #F6F6F6;
+    background-color: #0B132A;
+}

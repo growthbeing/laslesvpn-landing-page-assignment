@@ -1,0 +1,88 @@
+.ReviewSlider {
+    cursor: default;
+}
+
+.ReviewSlider,
+.ReviewSlider .cards,
+.ReviewSlider .cards .row {
+    display: flex;
+}
+
+.ReviewSlider .cards .card figure {
+    overflow: hidden;
+}
+
+.ReviewSlider .cards {
+    overflow: hidden;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.ReviewSlider .cards .card {
+    width: 30%;
+    padding: 2rem 1.5rem;
+}
+
+.ReviewSlider .cards .card .row {
+    justify-content: space-between;
+}
+
+.ReviewSlider .cards .card .row .col.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ReviewSlider .cards .card .row .col.row p {
+    margin-right: 1rem;
+}
+
+.ReviewSlider .cards .card .row .collg {
+    margin-right: auto;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ReviewSlider .cards .card .row .collg h5 {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.ReviewSlider .cards .card .row .collg p {
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+.ReviewSlider .reviewText {
+    margin-top: 1rem;
+    line-height: 1.7;
+}
+
+@media screen and (max-width: 71.875rem) {
+    .ReviewSlider .cards {
+        flex-direction: column;
+        margin: auto;
+    }
+    .ReviewSlider .cards .card {
+        margin: auto;
+        width: 70%;
+    }
+    .ReviewSlider .cards .card:not(:last-of-type) {
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 45.667rem) {
+    .ReviewSlider .cards .card {
+        margin: auto;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:26.5625rem) {
+    .ReviewSlider .cards .card .row .collg p {
+        margin-top: .3rem;
+    }
+}

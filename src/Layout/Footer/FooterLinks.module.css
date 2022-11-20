@@ -1,0 +1,24 @@
+.FooterLinks {
+    width: 13rem;
+    padding: 2rem;
+}
+
+.FooterLinks h5 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.FooterLinks ul li {
+    margin-top: .7rem;
+}
+
+.FooterLinks ul li a.footerLinks{
+    color: var(--text-color-light);
+    text-decoration: none;
+    transform: 0.4s ease-in;
+}
+
+.FooterLinks ul li a.footerLinks:hover{
+    color: var(--text-color-dark);
+}
