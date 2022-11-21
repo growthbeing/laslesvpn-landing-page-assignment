@@ -3,12 +3,15 @@
         grid-template-columns: repeat(7, 1fr);
         align-items: center;
         height: max-content;
-        margin-top: 2rem;
+        margin-top: 1rem;
+        padding: 1rem 0;
     }
     
     .HeaderNavigation .Logo {
         grid-column: 1/span 1;
     }
+
+   
     
     .HeaderNavigation .mainNav {
         grid-column: 2/span 5;
@@ -102,12 +105,9 @@
     }
     
     @media screen and (max-width: 56.25rem) {
-        .HeaderNavigation .mainNav {
-            display: none;
-        }
-        .HeaderNavigation .remNav {
-            display: none;
-        }
-    }
 
-    /* TODO Mobile Navigation Menu showing*/
+        .HeaderNavigation ul {
+            flex-direction: column;
+        }
+
+    }
