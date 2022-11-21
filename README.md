@@ -10,7 +10,7 @@
 git clone https://github.com/growthbeing/laslesvpn-landing-page-assignment && cd laslesvpn-landing-page-assignment
 ```
 
-## For Offline Development
+## For Offline Development :man_technologist:
 
 **For npm**
 
@@ -28,3 +28,7 @@ yarn build
 yarn start
 ```
 
+## Issues :bug:
+```sh
+Please report any bug or issues you have faced in the [Issues](https://github.com/growthbeing/laslesvpn-landing-page-assignment/issues) tab of the repository
+```
