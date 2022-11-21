@@ -29,6 +29,6 @@ yarn start
 ```
 
 ## Issues :bug:
-```sh
+
 Please report any bug or issues you have faced in the [Issues](https://github.com/growthbeing/laslesvpn-landing-page-assignment/issues) tab of the repository
-```
+
