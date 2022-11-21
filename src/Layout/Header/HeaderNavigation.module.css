@@ -105,9 +105,14 @@
     }
     
     @media screen and (max-width: 56.25rem) {
+        
+        .HeaderNavigation {
+            grid-template-columns: repeat(4, 1fr);
+        }
 
         .HeaderNavigation ul {
             flex-direction: column;
+            gap: 4px;
         }
 
     }
