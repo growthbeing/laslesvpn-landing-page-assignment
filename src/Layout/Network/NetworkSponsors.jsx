@@ -16,7 +16,26 @@ import classes from "./NetworkSponsors.module.css";
 
 
 //FUNCTIONS
-const images = [{name: "Netflix",image: NetflixImage}, {name: "Reddit",image: RedditImage}, {name: "Amazon",image: AmazonImage}, {name: "Discord",image: DiscordImage},{name: "Spotify", image: SpotImage}]
+const images = [
+    {   
+        name: "Netflix",
+        image: NetflixImage
+    },
+    {
+        name: "Reddit",
+        image: RedditImage
+    },
+    {   name: "Amazon",
+        image: AmazonImage
+    },
+    {
+        name: "Discord",
+        image: DiscordImage
+    },
+    {   name: "Spotify",
+        image: SpotImage
+    }
+]
 
 const mappedImages = images.map((image) => {
     return <figure key={image.name} className={classes.Sponsors}>

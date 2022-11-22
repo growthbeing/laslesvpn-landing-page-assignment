@@ -35,7 +35,7 @@ const Header = () => {
             <figure>
               <Image
                 image={HeaderIllustration}
-                description="WORK WITH LASLESVPN"
+                description="Work with LaslesVPN"
                 className={classes.Image}
               />
             </figure>

@@ -14,6 +14,7 @@ import SliderDots from '../../assets/images/Ellipse.svg';
 import classes from './Reviews.module.css';
 
 const Reviews = () => {
+    
     return (
       <Section className={classes.Reviews} id={`testimonials`}>
         <header>
@@ -23,6 +24,7 @@ const Reviews = () => {
             pleasure when using this crazy feature.
           </p>
         </header>
+        
         <ReviewSlider />
         <div className={`${classes.row} ${classes.SliderBtn}`}>
           <div className={`${classes.col} ${classes.Slider}`}>
@@ -45,11 +47,7 @@ const Reviews = () => {
                   fill="#F53838"
                 />
               </svg>
-              {/* <Image
-                image={BackControl}
-                description="Back"
-                className={classes.img}
-              /> */}
+             
             </Button>
             <Button className={`${classes.btn} ${classes.active}`}>
               <svg
@@ -65,11 +63,7 @@ const Reviews = () => {
                 />
               </svg>
 
-              {/* <Image
-                image={FrontControl}
-                description="Front"
-                className={classes.img}
-              /> */}
+              
             </Button>
           </div>
         </div>
