@@ -11,6 +11,10 @@
     width: 50%;
 }
 
+.Features.row .col p {
+    color: var(--text-color-light);
+}
+
 .Features.row .col:last-child {
     display: grid;
     padding: 2rem;
