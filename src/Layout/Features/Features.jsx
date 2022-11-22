@@ -17,10 +17,10 @@ const features = {Function: ["Powerful online protection.", "Internet without bo
 
 
 //MAPPING THE features
-const featuresList = features.Function.map(featureFnc => {
+const featuresList = features.Function.map((featureFnc, index) => {
   return <li key={featureFnc[0]}>
     <figure>
-    <Image image={Check}/> 
+    <Image image={Check} description={`Feature ${index + 1}`}/> 
     </figure>
     <span>{featureFnc}</span>
     </li>

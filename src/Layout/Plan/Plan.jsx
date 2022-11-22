@@ -54,7 +54,7 @@ const plans = [Free,Standard,Premium];
   
 
 //MAPPING THE plans
-const PlanCard = plans.map(plan => {
+const PlanCard = plans.map((plan) => {
     return (
       <Card className={classes.card} key={plan.name}>
         <figure>
@@ -64,31 +64,31 @@ const PlanCard = plans.map(plan => {
           <h5>{plan.name} Plan</h5>
           <ul>
             <li>
-              <Image image={DifferentCheck} />
+              <Image image={DifferentCheck} description="Plan Package"/>
               <span>{plan.Bandwidth}</span>
             </li>
             <li>
-              <Image image={DifferentCheck} />
+              <Image image={DifferentCheck} description="Plan Package"/>
               <span>{plan.Encryption}</span>
             </li>
             <li>
-              <Image image={DifferentCheck} />
+              <Image image={DifferentCheck} description="Plan Package"/>
               <span>{plan.TrafficLog}</span>
             </li>
             <li>
-              <Image image={DifferentCheck} />
+              <Image image={DifferentCheck} description="Plan Package"/>
               <span>{plan.OperationalDevices}</span>
             </li>
             {plan.Possibities.Connectivity && (
               <li>
-                <Image image={DifferentCheck} />
+                <Image image={DifferentCheck} description="Plan Package"/>
                 <span>{plan.Connectivity}</span>
               </li>
             )}
 
             {plan.Possibities.Features && (
               <li>
-                <Image image={DifferentCheck} />
+                <Image image={DifferentCheck} description="Plan Package"/>
                 <span>{plan.Features}</span>
               </li>
             )}

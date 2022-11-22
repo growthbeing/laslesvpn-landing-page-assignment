@@ -45,7 +45,7 @@ const Header = () => {
         <div className={classes.otherinfo}>
           <div className={classes.row}>
             <figure>
-              <Image image={UserIcon} className={classes.colIcon} />
+              <Image image={UserIcon} className={classes.colIcon} description="Users"/>
             </figure>
             <span className={classes.headerText}>
               <h5>90+ </h5>
@@ -55,7 +55,7 @@ const Header = () => {
 
           <div className={classes.row}>
             <figure>
-              <Image image={UserLocation} className={classes.colIcon} />
+              <Image image={UserLocation} className={classes.colIcon} description="Location"/>
             </figure>
             <span className={classes.headerText}>
               <h5>30+ </h5>
@@ -65,7 +65,7 @@ const Header = () => {
 
           <div className={classes.row}>
             <figure>
-              <Image image={UserFile} className={classes.colIcon}/>
+              <Image image={UserFile} className={classes.colIcon} description="Servers"/>
             </figure>
             <span className={classes.headerText}>
               <h5>50+</h5>
