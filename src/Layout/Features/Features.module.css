@@ -11,7 +11,8 @@
     width: 50%;
 }
 
-.Features.row .col p {
+.Features.row .col p,
+.Features.row .col li {
     color: var(--text-color-light);
 }
 
